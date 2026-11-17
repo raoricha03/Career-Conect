@@ -1,0 +1,354 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jobs | CareerConnect</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+        <div class="container nav-container">
+
+            <a href="index.html" class="logo">
+                Career<span>Connect</span>
+            </a>
+
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="companies.html">Companies</a></li>
+                    <li><a href="jobs.html" class="active">Jobs</a></li>
+                    <li><a href="schedule.html">Schedule</a></li>
+                </ul>
+            </nav>
+
+            <div class="nav-buttons">
+                <a href="login.html" class="login-btn">Login</a>
+                <a href="register.html" class="register-btn">Register</a>
+            </div>
+            <button class="menu-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false">Menu</button>
+
+        </div>
+    </header>
+
+
+    <!-- PAGE BANNER -->
+    <section class="jobs-banner">
+        <div class="container">
+            <span>FIND YOUR NEXT OPPORTUNITY</span>
+            <h1>Explore Career Opportunities</h1>
+            <p>
+                Discover jobs and internships that match your
+                skills, interests and career goals.
+            </p>
+        </div>
+    </section>
+
+
+    <!-- JOB INTRODUCTION -->
+    <section class="jobs-intro">
+        <div class="container">
+            <h2>Featured Job Opportunities</h2>
+            <p>
+                Explore opportunities from leading organizations
+                and take the next step in your career.
+            </p>
+            <div class="job-filters" aria-label="Filter jobs">
+                <label class="visually-hidden" for="jobSearch">Search jobs</label>
+                <input id="jobSearch" type="search" placeholder="Search title, company, location...">
+                <label class="visually-hidden" for="jobType">Job type</label>
+                <select id="jobType">
+                    <option value="">All job types</option>
+                    <option value="Full-time">Full-time</option>
+                    <option value="Internship">Internship</option>
+                </select>
+                <p id="jobResults" aria-live="polite"></p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- JOB LISTINGS -->
+    <section class="jobs-section">
+        <div class="container">
+
+            <div class="jobs-grid">
+
+                <!-- JOB 1 -->
+                <div class="job-card">
+                    <div class="job-top">
+                        <div class="job-company-logo">G</div>
+                        <span class="job-type">Full-time</span>
+                    </div>
+
+                    <h3>Software Developer</h3>
+                    <p class="job-company">Google</p>
+
+                    <div class="job-details">
+                        <span>📍 Bengaluru</span>
+                        <span>💻 Technology</span>
+                    </div>
+
+                    <p class="job-description">
+                        Work on software development, coding
+                        and innovative technology solutions.
+                    </p>
+
+                    <a href="login.html" class="apply-btn">Apply Now →</a>
+                </div>
+
+
+                <!-- JOB 2 -->
+                <div class="job-card">
+                    <div class="job-top">
+                        <div class="job-company-logo">M</div>
+                        <span class="job-type">Full-time</span>
+                    </div>
+
+                    <h3>Web Developer</h3>
+                    <p class="job-company">Microsoft</p>
+
+                    <div class="job-details">
+                        <span>📍 Hyderabad</span>
+                        <span>💻 Development</span>
+                    </div>
+
+                    <p class="job-description">
+                        Develop modern web applications and
+                        contribute to digital product development.
+                    </p>
+
+                    <a href="login.html" class="apply-btn">Apply Now →</a>
+                </div>
+
+
+                <!-- JOB 3 -->
+                <div class="job-card">
+                    <div class="job-top">
+                        <div class="job-company-logo">A</div>
+                        <span class="job-type">Internship</span>
+                    </div>
+
+                    <h3>Data Analyst Intern</h3>
+                    <p class="job-company">Amazon</p>
+
+                    <div class="job-details">
+                        <span>📍 Gurugram</span>
+                        <span>📊 Data Analytics</span>
+                    </div>
+
+                    <p class="job-description">
+                        Analyze datasets, prepare reports and
+                        support data-driven business decisions.
+                    </p>
+
+                    <a href="login.html" class="apply-btn">Apply Now →</a>
+                </div>
+
+
+                <!-- JOB 4 -->
+                <div class="job-card">
+                    <div class="job-top">
+                        <div class="job-company-logo">I</div>
+                        <span class="job-type">Full-time</span>
+                    </div>
+
+                    <h3>Python Developer</h3>
+                    <p class="job-company">Infosys</p>
+
+                    <div class="job-details">
+                        <span>📍 Pune</span>
+                        <span>💻 Programming</span>
+                    </div>
+
+                    <p class="job-description">
+                        Build applications using Python and
+                        work with software development teams.
+                    </p>
+
+                    <a href="login.html" class="apply-btn">Apply Now →</a>
+                </div>
+
+
+                <!-- JOB 5 -->
+                <div class="job-card">
+                    <div class="job-top">
+                        <div class="job-company-logo">T</div>
+                        <span class="job-type">Internship</span>
+                    </div>
+
+                    <h3>Frontend Developer Intern</h3>
+                    <p class="job-company">TCS</p>
+
+                    <div class="job-details">
+                        <span>📍 Mumbai</span>
+                        <span>🎨 Web Development</span>
+                    </div>
+
+                    <p class="job-description">
+                        Create user-friendly interfaces using
+                        HTML, CSS and JavaScript.
+                    </p>
+
+                    <a href="login.html" class="apply-btn">Apply Now →</a>
+                </div>
+
+
+                <!-- JOB 6 -->
+                <div class="job-card">
+                    <div class="job-top">
+                        <div class="job-company-logo">A</div>
+                        <span class="job-type">Full-time</span>
+                    </div>
+
+                    <h3>Business Analyst</h3>
+                    <p class="job-company">Accenture</p>
+
+                    <div class="job-details">
+                        <span>📍 Noida</span>
+                        <span>📈 Business</span>
+                    </div>
+
+                    <p class="job-description">
+                        Understand business requirements and
+                        help organizations improve their processes.
+                    </p>
+
+                    <a href="login.html" class="apply-btn">Apply Now →</a>
+                </div>
+
+
+                <!-- JOB 7 -->
+                <div class="job-card">
+                    <div class="job-top">
+                        <div class="job-company-logo">A</div>
+                        <span class="job-type">Internship</span>
+                    </div>
+
+                    <h3>UI/UX Design Intern</h3>
+                    <p class="job-company">Adobe</p>
+
+                    <div class="job-details">
+                        <span>📍 Bengaluru</span>
+                        <span>🎨 Design</span>
+                    </div>
+
+                    <p class="job-description">
+                        Assist in creating attractive and
+                        user-friendly digital experiences.
+                    </p>
+
+                    <a href="login.html" class="apply-btn">Apply Now →</a>
+                </div>
+
+
+                <!-- JOB 8 -->
+                <div class="job-card">
+                    <div class="job-top">
+                        <div class="job-company-logo">I</div>
+                        <span class="job-type">Full-time</span>
+                    </div>
+
+                    <h3>Cloud Engineer</h3>
+                    <p class="job-company">IBM</p>
+
+                    <div class="job-details">
+                        <span>📍 Hyderabad</span>
+                        <span>☁️ Cloud Computing</span>
+                    </div>
+
+                    <p class="job-description">
+                        Work with cloud technologies and
+                        develop scalable computing solutions.
+                    </p>
+
+                    <a href="login.html" class="apply-btn">Apply Now →</a>
+                </div>
+
+
+                <!-- JOB 9 -->
+                <div class="job-card">
+                    <div class="job-top">
+                        <div class="job-company-logo">W</div>
+                        <span class="job-type">Internship</span>
+                    </div>
+
+                    <h3>Cybersecurity Intern</h3>
+                    <p class="job-company">Wipro</p>
+
+                    <div class="job-details">
+                        <span>📍 Noida</span>
+                        <span>🔐 Cybersecurity</span>
+                    </div>
+
+                    <p class="job-description">
+                        Learn security practices and assist
+                        in protecting digital systems.
+                    </p>
+
+                    <a href="login.html" class="apply-btn">Apply Now →</a>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- CTA -->
+    <section class="cta-section">
+        <div class="container cta-container">
+            <h2>Ready to Apply?</h2>
+            <p>
+                Register with CareerConnect and explore
+                opportunities that match your ambitions.
+            </p>
+            <a href="register.html" class="cta-btn">Register Now →</a>
+        </div>
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer-container">
+
+            <div>
+                <a href="index.html" class="footer-logo">
+                    Career<span>Connect</span>
+                </a>
+                <p>
+                    Connecting students with opportunities
+                    and building brighter futures.
+                </p>
+            </div>
+
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <a href="about.html">About Us</a>
+                <a href="companies.html">Companies</a>
+                <a href="jobs.html">Jobs</a>
+                <a href="schedule.html">Schedule</a>
+            </div>
+
+            <div class="footer-links">
+                <h3>Account</h3>
+                <a href="login.html">Login</a>
+                <a href="register.html">Register</a>
+            </div>
+
+        </div>
+
+        <div class="copyright">
+            <p>© 2026 CareerConnect. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>

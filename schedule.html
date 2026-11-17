@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Career Events | CareerConnect</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">Career<span>Connect</span></a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="companies.html">Companies</a></li>
+                    <li><a href="jobs.html">Jobs</a></li>
+                    <li><a href="schedule.html" class="active">Schedule</a></li>
+                </ul>
+            </nav>
+            <div class="nav-buttons">
+                <a href="login.html" class="login-btn">Login</a>
+                <a href="register.html" class="register-btn">Register</a>
+            </div>
+            <button class="menu-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false">Menu</button>
+        </div>
+    </header>
+
+    <section class="schedule-banner">
+        <div class="container">
+            <span>MEET YOUR NEXT OPPORTUNITY</span>
+            <h1>Career Events</h1>
+            <p>Find upcoming fairs, workshops, and recruiter sessions.</p>
+        </div>
+    </section>
+
+    <main class="schedule-section">
+        <div class="container">
+            <div class="schedule-heading">
+                <div>
+                    <span class="section-label">THE CALENDAR</span>
+                    <h2>Upcoming events</h2>
+                </div>
+                <a href="jobs.html" class="secondary-btn">Browse open jobs</a>
+            </div>
+            <div class="events-grid" data-events aria-live="polite"></div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-container">
+            <div>
+                <a href="index.html" class="footer-logo">Career<span>Connect</span></a>
+                <p>Connecting students with opportunities and building brighter futures.</p>
+            </div>
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <a href="about.html">About Us</a>
+                <a href="companies.html">Companies</a>
+                <a href="jobs.html">Jobs</a>
+                <a href="schedule.html">Schedule</a>
+            </div>
+            <div class="footer-links">
+                <h3>Account</h3>
+                <a href="login.html">Login</a>
+                <a href="register.html">Register</a>
+            </div>
+        </div>
+        <div class="copyright"><p>© <span id="currentYear">2026</span> CareerConnect. All Rights Reserved.</p></div>
+    </footer>
+</body>
+</html>
